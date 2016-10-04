@@ -1,6 +1,6 @@
 {
   "name": "youtube-iframe-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "prepublish": "npm run build",
     "test": "karma start",
