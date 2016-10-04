@@ -1034,14 +1034,9 @@
     function W(a) {
         this.c = a || {};
         this.a = {};
-        this.a.host = "http://www.youtube.com";
+        this.a.host = "https://www.youtube.com";
         this.a.title = "";
         this.f = this.b = !1;
-        a = document.getElementById("www-widgetapi-script");
-        if (this.b = !!("https:" == document.location.protocol || a && 0 == a.src.indexOf("https:"))) {
-            a = [this.c, window.YTConfig || {}, this.a];
-            for (var b = 0; b < a.length; b++) a[b].host && (a[b].host = a[b].host.replace("http://", "https://"))
-        }
     }
     var P = null;
 
