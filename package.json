@@ -2,6 +2,7 @@
   "name": "youtube-iframe-api",
   "version": "0.0.0",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "webpack iframe-api.js dist/iframe-api.js -p",
     "watch": "webpack iframe-api.js dist/iframe-api.js -w"
   },
